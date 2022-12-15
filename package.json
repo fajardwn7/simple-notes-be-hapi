@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "lint": "eslint ./",
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^21.1.0"
+    "@hapi/hapi": "^21.1.0",
+    "nanoid": "3.x.x"
   },
   "devDependencies": {
     "eslint": "^7.32.0 || ^8.2.0",
